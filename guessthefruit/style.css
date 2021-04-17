@@ -1,0 +1,136 @@
+body {
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #ff9683;
+    padding: 1em;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    margin: 0.5rem;
+    transition: all 400ms;
+}
+
+.link:hover, .link:focus {
+    color: #fff582;
+}
+
+@media (min-width: 1000px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background: #fcb1a4;
+    font-size: 1.5rem;
+}
+
+img {
+    border-radius: 5%;
+    max-width: 300px;
+    max-height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gamePage {
+    justify-content: start;
+    padding-top: 2rem;
+}
+
+.optBtn {
+    width: 15rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-family: cursive;
+    background: none;
+    background-color: #fec89a;
+    transition: all 200ms;
+    border: 1px solid aliceblue;
+}
+
+.optBtn:hover {
+    background-color: #e76f51;
+}
+
+.endBtn {
+    width: 20rem;
+    background-color: #ef233c;
+    border: 2px solid black;
+    font-size: 2rem;
+}
+
+.endBtn:hover {
+    background-color: #d90429;
+}
+
+.btn {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    background: none;
+    color: rgb(209, 124, 20);
+    border: 2px solid #4a4a4a;
+    border-radius: 10px;
+    transition: all 200ms;
+    margin: 2rem;
+}
+
+.btn:hover {
+    border: 2px solid #ababab;
+    color: #2c2c2c;
+    font-size: 1.7rem;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.gobtn {
+    background: black;
+    text-transform: none;
+    border: none;
+    transform: rotate(-5deg);
+}
+
+.endPageBtn {
+    border-radius: 0;
+}
+
+#name {
+    font-size: larger;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#name:focus {
+    outline: none;
+}
+
+.bold {
+    font-weight: 800;
+}
