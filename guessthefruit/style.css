@@ -127,6 +127,7 @@ img {
 }
 
 #name {
+    width: fit-content;
     font-size: larger;
     border-radius: 20px;
     text-decoration: none;
